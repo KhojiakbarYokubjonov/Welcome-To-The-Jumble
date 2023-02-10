@@ -1,0 +1,83 @@
+<!--
+    author: Khojiakbar Yokubjonov
+    date: 2/7/2023
+    description: contains the html content of the web application called "The Jumble".
+    this application has two encytion options - Caesar cipher and Square cipher. They both allow the user
+    to make a slight modification to the encyption such as changing the shift value and updating the square grid.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Welcome To The Jumble</title>
+    <script src="cipher_algorithms.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="sidebar">
+	<h1>Welcome To The Jumble</h1>
+
+	<input type="text" id="input-text" name="text"
+       minlength="1" maxlength="100"  size="25" placeholder="Type here"><br>
+    <div id="slider-position">
+        <label for="slider" id="slider-label">0</label>
+        <input type="range" id="slider" name="slider"
+        min="0" max="26" value="0"><br>
+    
+    </div>
+
+    <button type="button" id="update-square-button">Update Square</button>
+    <table id="table">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+            <td>J</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>L</td>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <td>P</td>
+            <td>Q</td>
+            <td>R</td>
+            <td>S</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td>U</td>
+            <td>V</td>
+            <td>W</td>
+            <td>X</td>
+            <td>Y</td>
+        </tr>
+    </table>
+</div>
+
+<div id="output">
+    <div id="caesar">
+        <h1 id="caesar-text">WELCOME TO THE JUMBLE</h1>
+    </div>
+    
+    <div id="square">
+        <h1 id="square-text">WELCOME TO THE JUMBLE</h1>
+    </div>
+</div>
+
+
+</body>
+
+
+</html>
