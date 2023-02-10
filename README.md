@@ -10,7 +10,7 @@ C and the letter V comes three letters after S. Thus, the ciphertext would be FV
 It only translates alphabetical characters and skips white space, punctuation, and digits.
 
 ## Square Cipher
-In cryptography, there is a cipher algorithm known as the two square cipher.Here, I have implemented a simplified version of this, just called the “square cipher.”
+In cryptography, there is a cipher algorithm known as the two square cipher. Here, I have implemented a simplified version of this, called the “square cipher.”
 The KEY for this cipher is a 5x5 grid of text. Since a 5x5 grid only supports 25 of the 26 letters of the alphabet, I have not included Z. For the purposes of this cipher, a Z in the plaintext translates to the Z in the ciphertext. For all other alphabetical characters, takes the position of that character in the regular alphabet, and translates it to the character at the corresponding position in the grid.
 
 As with the Caesar cipher, it skips whitespace, punctuation, and digits.
