@@ -1,4 +1,4 @@
-# Welcome-To-The-Jumble
+# Welcome To The Jumble
 This is a one-page web application that implements two simple cipher (encryption) algorithms. \
 ## Caesar Cipher
 In this encryption method, each letter from the input text is shifted forward in the alphabet some number of times.\
